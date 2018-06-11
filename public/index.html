@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKcnpUt4LTtCuWLq1CDhDfw2k1ypcMcJE"></script>
+    <script>
+      window.onload=function(){
+        if(!google.maps){
+          alert("Google Maps failed to load,check you internet conection")
+        }else{
+          console.log("google maps loaded");
+        }      
+      }
+    </script>
+    
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
