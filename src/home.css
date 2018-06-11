@@ -1,0 +1,25 @@
+
+
+header{
+  height: 50px;
+  width: 100%;
+}
+
+
+.fa-bars{
+  color: black;
+  font-size: 28px;
+  padding-right: 10px;
+}
+
+#map{
+  position:static;
+  width: 100%;
+  height: 80vh;
+  background: #888;
+}
+
+.sideNav{
+  max-width: 100px;
+  background-color: black;
+}
