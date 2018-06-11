@@ -30,3 +30,6 @@ Since there is not much going on in my Neighborhood I decided to pin all the top
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+NOTE: *The service workers works only when the site is in production mode.*
+      *Enable production mode with* `npm run serve`
