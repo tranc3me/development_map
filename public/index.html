@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKcnpUt4LTtCuWLq1CDhDfw2k1ypcMcJE"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKcnpUt4LTtCuWLq1CDhDfw2k1ypcMcJE" onerror="googleFail()"></script>
     <script>
-      window.onload=function(){
-        if(!google.maps){
-          alert("Google Maps failed to load,check you internet conection")
-        }else{
-          console.log("google maps loaded");
-        }      
-      }
+    //display error message if maps fail to load
+      
+     function googleFail(){
+      alert("Google Maps failed to load, check your internet conection")
+     }
+    
     </script>
     
     <!--
