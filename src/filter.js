@@ -81,9 +81,9 @@ componentDidMount(props){
 
 
 
-               <ul className="list">
+               <ul className="list" role="list">
                  {this.props.markers.map((marker,id)=>{
-                       return <li key={id} tabIndex="1"
+                       return <li key={id} tabIndex="1" role="listitem"
                               onClick={()=>{this.filter(marker);
                                           this.props.listClicked(marker,this.allMarkers);}}
                                >     
